@@ -121,6 +121,19 @@ button:nth-child(2):hover {
     height: 100%;
 }
 
+.message-box {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
 .presentacion__imagen {
     width: 80%;
     max-width: 300px;
