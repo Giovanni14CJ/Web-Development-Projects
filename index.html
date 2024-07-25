@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <meta name="description" content="Aplicación para encriptar y desencriptar mensajes.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <input class="box-container" type="text" id="input-text" placeholder="Ingrese el texto aquí" oninput="updateText()">
+            <div class="button-container">
+                <button id="encrypt-button">Encriptar</button>
+                <button id="decrypt-button">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right-container">
+            <img class="presentacion__imagen" src="./assets/muñeco.png" alt="animacion">
+            <div class="message-box" id="message-box">
+                <p id="message">Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+    </div>
+    <!--<script src="script.js" defer></script>-->
+</body>
+</html>
